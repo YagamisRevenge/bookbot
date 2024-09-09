@@ -1,5 +1,5 @@
 def main():
-    book_path = "books/frankenstein.txt"
+    book_path = "bookbot/books/frankenstein.txt"
     text = book_text(book_path)
     words_num = word_count(text)
     char_num = char_count(text)
@@ -58,8 +58,4 @@ def bubble_sort(chars):
             if current_value < next_value:
                 chars[j], chars[j+1] = chars[j+1], chars[j]
         
-
-
-if __name__ == "__main__":
-    main()
 
